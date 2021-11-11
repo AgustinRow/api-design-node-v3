@@ -1,4 +1,6 @@
-export const getOne = model => async (req, res) => {}
+export const getOne = model => async (req, res) => {
+  console.log('nothing')
+}
 
 export const getMany = model => async (req, res) => {}
 
